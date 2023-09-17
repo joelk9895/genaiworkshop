@@ -4,8 +4,8 @@
 }
 
 @font-face {
-    font-family: 'SansFrancisco';
-    src: url("./SFUIDisplay-Regular.otf");
+    font-family: 'SansFranciscoText';
+    src: url("./SFNSText-Regular.otf");
 }
 
 @font-face {
@@ -54,10 +54,17 @@ body {
 h2 {
     font-size: 3rem;
     color: white;
-    font-family: 'SansFrancisco', sans-serif;
+    font-family: 'SansFranciscoText', sans-serif;
     text-transform: lowercase;
     position: relative;
     top: -2rem;
+    /* workshop */
+
+    background: linear-gradient(132.03deg, #6AAFFF 26.3%, #F8FAF9 48.45%, #CCFFDD 74.63%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
 }
 
 .titleHolder {
@@ -70,7 +77,7 @@ h2 {
 p {
     font-size: 2rem;
     color: white;
-    font-family: 'SansFrancisco', sans-serif;
+    font-family: 'SansFranciscoText', sans-serif;
     text-transform: lowercase;
     margin-bottom: 3rem;
 }
