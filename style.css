@@ -65,6 +65,8 @@ h2 {
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-fill-color: transparent;
+    background-size: 250px;
+    background-position-x: -10px;
 }
 
 .titleHolder {
@@ -75,7 +77,7 @@ h2 {
 }
 
 p {
-    font-size: 2rem;
+    font-size: 1rem;
     color: white;
     font-family: 'SansFranciscoText', sans-serif;
     text-transform: lowercase;
