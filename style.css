@@ -128,7 +128,7 @@ svg {
 
 @media only screen and (max-width: 1000px) {
     nav svg {
-        width: 100%;
+        width: 90%;
         margin-top: 1rem;
     }
 }
